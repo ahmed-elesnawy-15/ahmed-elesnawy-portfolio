@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Primary Meta Tags -->
+  <title>Ahmed Sabry Hamed Elesnawy | Full-Stack & MEAN Stack Developer</title>
+  <meta name="title" content="Ahmed Sabry Hamed Elesnawy | Full-Stack & MEAN Stack Developer" />
+  <meta name="description" content="Official personal portfolio of Ahmed Sabry Hamed Elesnawy — Full-Stack Web Developer specializing in the MEAN Stack, scalable web architectures, clean code, and modern responsive user experiences." />
+  <meta name="keywords" content="Ahmed Sabry, Ahmed Sabry Hamed Elesnawy, Full-Stack Developer, MEAN Stack, MongoDB, Express.js, Angular, Node.js, JavaScript, Computer Science, Egypt Developer, Web Portfolio" />
+  <meta name="author" content="Ahmed Sabry Hamed Elesnawy" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ahmed-sabry.dev/" />
+  <meta property="og:title" content="Ahmed Sabry Hamed Elesnawy | Full-Stack & MEAN Stack Developer" />
+  <meta property="og:description" content="Explore the portfolio of Ahmed Sabry: Full-Stack & MEAN Stack Specialist building scalable digital solutions." />
+  <meta property="og:image" content="assets/images/nti photo linkedin.jpeg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://ahmed-sabry.dev/" />
+  <meta property="twitter:title" content="Ahmed Sabry Hamed Elesnawy | Full-Stack Developer" />
+  <meta property="twitter:description" content="Explore the portfolio of Ahmed Sabry: Full-Stack & MEAN Stack Specialist building scalable digital solutions." />
+  <meta property="twitter:image" content="assets/images/nti photo linkedin.jpeg" />
+
+  <!-- Favicon (SVG Data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23619DC6'/><text x='50' y='65' font-family='sans-serif' font-size='50' font-weight='900' fill='%23F4F0E2' text-anchor='middle'>AS</text></svg>" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Custom Cursor Elements (Desktop Only) -->
+  <div class="custom-cursor" id="custom-cursor" aria-hidden="true"></div>
+  <div class="custom-cursor-follower" id="custom-cursor-follower" aria-hidden="true"></div>
+
+  <!-- Dynamic Interactive Particle Canvas Background -->
+  <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+  <!-- Ambient Glow Background Orbs -->
+  <div class="ambient-glows" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Ahmed Sabry Homepage">
+        <span class="logo-symbol">&lt;</span>
+        <span class="logo-name">Ahmed</span>
+        <span class="logo-accent">.Sabry</span>
+        <span class="logo-symbol">/&gt;</span>
+      </a>
+
+      <!-- Desktop & Tablet Navigation -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions: Theme Toggle & Mobile Hamburger -->
+      <div class="nav-actions">
+        <!-- Light / Dark Mode Toggle Button -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <span class="theme-icon sun-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Animated Hamburger Toggle -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main id="main-content">
+
+    <!-- ==================== SECTION 1: HOME / HERO ==================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="availability-badge" data-reveal="fade-down">
+            <span class="status-pulse" aria-hidden="true"></span>
+            <span class="badge-text">Available for Opportunities</span>
+          </div>
+
+          <!-- Hero Headings -->
+          <h1 class="hero-title" data-reveal="fade-up" data-delay="100">
+            <span class="greeting">Hello, I am</span>
+            <span class="name-highlight">Ahmed Sabry Hamed Elesnawy</span>
+          </h1>
+
+          <!-- Dynamic Typing Role -->
+          <div class="hero-role-wrapper" data-reveal="fade-up" data-delay="200">
+            <span class="role-prefix">Full-Stack Web Developer | </span>
+            <span class="typing-text" id="typing-text">MEAN Stack Developer</span>
+            <span class="typing-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <!-- Professional Introduction -->
+          <p class="hero-intro" data-reveal="fade-up" data-delay="300">
+            Building scalable digital experiences through clean code, creative thinking, and modern web technologies.
+          </p>
+
+          <!-- CTAs & Action Buttons -->
+          <div class="hero-actions" data-reveal="fade-up" data-delay="400">
+            <a href="#contact" class="btn btn-primary magnetic-btn">
+              <span>Hire Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#projects" class="btn btn-secondary magnetic-btn">
+              <span>View Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17l9.2-9.2M17 17V8H8"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Tech Highlights Quick Strip -->
+          <div class="hero-quick-tech" data-reveal="fade-up" data-delay="500">
+            <span class="tech-strip-label">Core Focus:</span>
+            <span class="tech-pill">MongoDB</span>
+            <span class="tech-pill">Express.js</span>
+            <span class="tech-pill">Angular</span>
+            <span class="tech-pill">Node.js</span>
+            <span class="tech-pill">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Hero Profile Visual / Frame -->
+        <div class="hero-visual" data-reveal="zoom-in" data-delay="300">
+          <div class="profile-card-3d" id="hero-profile-card">
+            <div class="profile-frame">
+              <div class="frame-border-glow"></div>
+              <div class="image-wrapper">
+                <!-- Editable Profile Photo Location: Replace src with your actual photo (e.g. assets/images/ahmed-sabry.jpg) -->
+                <img 
+                  src="assets/images/nti photo linkedin.jpeg" 
+                  alt="Ahmed Sabry Hamed Elesnawy - Full-Stack & MEAN Stack Developer" 
+                  class="profile-image" 
+                  id="profile-img"
+                  width="480"
+                  height="560"
+                  loading="eager"
+                />
+              </div>
+
+              <!-- Floating Badges on Profile Frame -->
+              <div class="floating-badge badge-top-left" data-tilt-item>
+                <span class="badge-icon">⚡</span>
+                <div class="badge-text-group">
+                  <strong>MEAN Stack</strong>
+                  <small>Specialist</small>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom-right" data-tilt-item>
+                <span class="badge-icon">🎓</span>
+                <div class="badge-text-group">
+                  <strong>CS Student</strong>
+                  <small>GPA 3.00 / 4.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Animated Scroll Down Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down to About section">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+        <span class="scroll-text">Scroll Down</span>
+      </a>
+    </section>
+
+    <!-- ==================== SECTION 2: ABOUT ME ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">01. Discovery</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Dedicated to clean architecture, modern engineering, and meaningful digital experiences.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Portrait & Decorative Visual -->
+          <div class="about-visual-col" data-reveal="fade-right">
+            <div class="about-image-card tilt-card">
+              <div class="about-image-container">
+                <img 
+                  src="assets/images/nti photo linkedin.jpeg" 
+                  alt="Ahmed Sabry Hamed Elesnawy Portrait" 
+                  class="about-img" 
+                  loading="lazy" 
+                  width="440" 
+                  height="520"
+                />
+                <div class="about-image-overlay"></div>
+              </div>
+              <div class="about-exp-badge">
+                <span class="exp-number">3rd</span>
+                <span class="exp-desc">Year CS<br />Undergraduate</span>
+              </div>
+            </div>
+            
+            <div class="about-mini-stats">
+              <div class="mini-stat-item">
+                <span class="stat-number">3.00</span>
+                <span class="stat-label">Academic GPA</span>
+              </div>
+              <div class="mini-stat-item">
+                <span class="stat-number">MEAN</span>
+                <span class="stat-label">Core Specialization</span>
+              </div>
+              <div class="mini-stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Committed to Quality</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Professional Narrative & 6 Highlights -->
+          <div class="about-info-col" data-reveal="fade-left">
+            <div class="about-statement">
+              <p class="about-para lead">
+                I'm a Full Stack Web Developer specializing in the MEAN Stack (MongoDB, Express.js, Angular, Node.js), passionate about building scalable, high-performance web applications with clean architecture and modern user experiences.
+              </p>
+              <p class="about-para">
+                Skilled in developing responsive front-end interfaces and efficient back-end systems, with a strong focus on problem-solving, performance optimization, and writing maintainable code.
+              </p>
+              <p class="about-para">
+                Continuously learning and leveraging AI tools to deliver smarter and more innovative digital solutions.
+              </p>
+            </div>
+
+            <!-- Six Compact Highlights -->
+            <div class="highlights-grid">
+              <div class="highlight-card tilt-card" data-reveal="fade-up" data-delay="100">
+                <div class="highlight-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <div class="highlight-content">
+                  <h3 class="highlight-title">1. Professional Role</h3>
+                  <p class="highlight-text">Full-Stack Web Developer</p>
+                </div>
+              </div>
+
+              <div class="highlight-card tilt-card" data-reveal="fade-up" data-delay="150">
+                <div class="highlight-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                </div>
+                <div class="highlight-content">
+                  <h3 class="highlight-title">2. Specialization</h3>
+                  <p class="highlight-text">MEAN Stack Development</p>
+                </div>
+              </div>
+
+              <div class="highlight-card tilt-card" data-reveal="fade-up" data-delay="200">
+                <div class="highlight-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <div class="highlight-content">
+                  <h3 class="highlight-title">3. Frontend</h3>
+                  <p class="highlight-text">Responsive and interactive interfaces</p>
+                </div>
+              </div>
+
+              <div class="highlight-card tilt-card" data-reveal="fade-up" data-delay="250">
+                <div class="highlight-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                </div>
+                <div class="highlight-content">
+                  <h3 class="highlight-title">4. Backend</h3>
+                  <p class="highlight-text">Scalable server-side applications</p>
+                </div>
+              </div>
+
+              <div class="highlight-card tilt-card" data-reveal="fade-up" data-delay="300">
+                <div class="highlight-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                </div>
+                <div class="highlight-content">
+                  <h3 class="highlight-title">5. Problem Solving</h3>
+                  <p class="highlight-text">Clean code and efficient solutions</p>
+                </div>
+              </div>
+
+              <div class="highlight-card tilt-card" data-reveal="fade-up" data-delay="350">
+                <div class="highlight-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                </div>
+                <div class="highlight-content">
+                  <h3 class="highlight-title">6. Mindset</h3>
+                  <p class="highlight-text">Continuous learning and AI-powered development</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Download CV CTA -->
+            <div class="about-actions" data-reveal="fade-up" data-delay="400">
+              <!-- Clear location where actual PDF is placed: assets/cv/Ahmed_Sabry_CV_Placeholder.pdf -->
+              <a href="assets/cv/Ahmed_Sabry_CV.docx" download="Ahmed_Sabry_Hamed_Elesnawy_CV" class="btn btn-primary magnetic-btn" id="about-download-cv">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg>
+                <span>Download CV (DOCX)</span>
+              </a>
+              <a href="#contact" class="btn btn-outline magnetic-btn">
+                <span>Let's Discuss Opportunities</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 3: EDUCATION ==================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">02. Academic Foundation</span>
+          <h2 class="section-title">Education &amp; Academic Journey</h2>
+          <p class="section-subtitle">Rigorous computer science fundamentals fueling professional engineering standards.</p>
+        </div>
+
+        <div class="education-layout">
+          <!-- Left: Vertical Timeline -->
+          <div class="education-timeline" data-reveal="fade-right">
+            <!-- Degree Milestone -->
+            <div class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true">
+                <span class="marker-dot"></span>
+              </div>
+              <div class="timeline-card tilt-card">
+                <div class="card-badge">Current Academic Status</div>
+                <h3 class="degree-title">Bachelor's Degree in Computer Science</h3>
+                <div class="institution-meta">
+                  <span class="institution-name">
+                    <!-- Editable placeholder for institution name -->
+                    [Faculty of Computers &amp; Artificial Intelligence / Computer Science Department]
+                  </span>
+                  <span class="academic-year">Third-Year Undergraduate (Class of 2028)</span>
+                </div>
+                <p class="timeline-description">
+                  Currently pursuing my Computer Science degree, strengthening my foundations in programming, algorithms, databases, software engineering, and modern web development.
+                </p>
+
+                <!-- Academic Milestones (Editable placeholders, no invented awards) -->
+                <div class="milestones-block">
+                  <h4 class="milestones-header">Key Academic Focus &amp; Core Coursework:</h4>
+                  <ul class="milestones-list">
+                    <li><span class="bullet">✓</span> Data Structures &amp; Algorithm Analysis</li>
+                    <li><span class="bullet">✓</span> Object-Oriented Programming (OOP) in C++ &amp; Python</li>
+                    <li><span class="bullet">✓</span> Relational &amp; Document Database Management Systems</li>
+                    <li><span class="bullet">✓</span> Operating Systems &amp; Computer Networks Architecture</li>
+                    <li><span class="bullet">✓</span> Software Engineering Methodologies &amp; Clean Code Practices</li>
+                    <li class="placeholder-note"><em>[Editable Placeholder: Add your specific department / university name or coursework projects here]</em></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Animated GPA Metric Display & Academic Snapshot -->
+          <div class="education-visual-card" data-reveal="fade-left">
+            <div class="gpa-card tilt-card">
+              <h3 class="gpa-card-title">Academic Performance</h3>
+              <p class="gpa-card-subtitle">Cumulative Grade Point Average</p>
+
+              <!-- Animated GPA Circle Visualization -->
+              <div class="gpa-chart-container">
+                <svg class="gpa-svg" viewBox="0 0 200 200" width="180" height="180">
+                  <circle class="gpa-bg-circle" cx="100" cy="100" r="80" stroke-width="12"></circle>
+                  <circle class="gpa-progress-circle" id="gpa-progress-circle" cx="100" cy="100" r="80" stroke-width="12" stroke-dasharray="502.65" stroke-dashoffset="502.65"></circle>
+                </svg>
+                <div class="gpa-center-text">
+                  <span class="gpa-val" id="gpa-counter">3.00</span>
+                  <span class="gpa-scale">/ 4.00</span>
+                </div>
+              </div>
+
+              <div class="gpa-status-pill">
+                <span class="pill-dot"></span>
+                <span>Third-Year CS Standing</span>
+              </div>
+
+              <div class="gpa-highlights">
+                <div class="gpa-stat-row">
+                  <span class="row-label">Field of Study:</span>
+                  <span class="row-value">Computer Science</span>
+                </div>
+                <div class="gpa-stat-row">
+                  <span class="row-label">Current Status:</span>
+                  <span class="row-value">Third-Year Student</span>
+                </div>
+                <div class="gpa-stat-row">
+                  <span class="row-label">Cumulative GPA:</span>
+                  <span class="row-value highlight-val">3.00 / 4.00</span>
+                </div>
+                <div class="gpa-stat-row">
+                  <span class="row-label">Core Focus:</span>
+                  <span class="row-value">Full-Stack &amp; MEAN Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 4: EXPERIENCE ==================== -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">03. Career &amp; Training</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Real-world training, intensive software development labs, and engineering practice.</p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Active Experience Entry: NTI -->
+          <div class="exp-card tilt-card" data-reveal="fade-up">
+            <div class="exp-header">
+              <div class="exp-title-group">
+                <div class="exp-company-badge">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                </div>
+                <div>
+                  <h3 class="exp-position">MEAN Stack Development Trainee</h3>
+                  <h4 class="exp-company">NTI – National Telecommunication Institute</h4>
+                </div>
+              </div>
+              <div class="exp-meta-badge">
+                <span class="exp-type">Training Program</span>
+                <span class="exp-period">Active Trainee</span>
+              </div>
+            </div>
+
+            <div class="exp-body">
+              <p class="exp-description">
+                Learning and applying modern full-stack development technologies, including MongoDB, Express.js, Angular, and Node.js. Participating in hands-on architectures, building REST APIs, modular Angular single-page applications, and robust NoSQL schema implementations.
+              </p>
+
+              <div class="exp-responsibilities">
+                <h5 class="sub-heading">Key Training Highlights &amp; Practice:</h5>
+                <ul>
+                  <li>Architecting end-to-end full-stack applications with Express.js routing, Node.js runtime, and Angular interfaces.</li>
+                  <li>Designing MongoDB database models, collection schemas, and aggregation pipelines for CRUD operations.</li>
+                  <li>Implementing secure client-server authentication, token handling, and CORS middleware configurations.</li>
+                  <li>Building responsive, modular UI components utilizing Angular TypeScript, services, and RxJS observables.</li>
+                </ul>
+              </div>
+
+              <div class="tech-tags">
+                <span class="tag">MongoDB</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">Angular</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">RESTful APIs</span>
+                <span class="tag">JavaScript (ES6+)</span>
+                <span class="tag">Git &amp; GitHub</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Clearly Identified Editable Placeholder for Additional Experience (Strict: No invented employment history) -->
+          <div class="exp-card placeholder-exp-card tilt-card" data-reveal="fade-up" data-delay="150">
+            <div class="placeholder-tag">
+              <span>Editable Placeholder — Ready for Your Next Role / Internship</span>
+            </div>
+            <div class="exp-header">
+              <div class="exp-title-group">
+                <div class="exp-company-badge placeholder-badge">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                </div>
+                <div>
+                  <h3 class="exp-position">[Editable Position Title - e.g., Junior Full-Stack Developer]</h3>
+                  <h4 class="exp-company">[Editable Company Name - e.g., Tech Company / Agency / Freelance]</h4>
+                </div>
+              </div>
+              <div class="exp-meta-badge">
+                <span class="exp-type">[Role Type: Full-time / Internship / Freelance]</span>
+                <span class="exp-period">[Duration - e.g., 2025 – Present]</span>
+              </div>
+            </div>
+            <div class="exp-body">
+              <p class="exp-description">
+                <em>[Editable placeholder for additional professional experience, client work, or internship positions. This block is fully formatted and ready to be customized whenever new employment details are added.]</em>
+              </p>
+              <div class="tech-tags">
+                <span class="tag">[Tech 1]</span>
+                <span class="tag">[Tech 2]</span>
+                <span class="tag">[Tech 3]</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 5: SKILLS ==================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">04. Technical Capabilities</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Structured by domains of expertise without arbitrary percentages — reflecting real engineering knowledge.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- 1. Frontend Development -->
+          <div class="skill-category-card tilt-card" data-reveal="fade-up" data-delay="100">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Frontend Development</h3>
+                <span class="category-badge">Client-Side Architecture</span>
+              </div>
+            </div>
+            <ul class="skills-item-list">
+              <li class="skill-item">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-level-tag">Semantic &amp; Accessible</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">CSS3</span>
+                <span class="skill-level-tag">Modern Flex/Grid &amp; Variables</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">JavaScript (ES6+)</span>
+                <span class="skill-level-tag">Vanilla, Async/Await, DOM</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">TypeScript</span>
+                <span class="skill-level-tag">Static Typing &amp; Interfaces</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Angular</span>
+                <span class="skill-level-tag">Components, Services &amp; RxJS</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Responsive Web Design</span>
+                <span class="skill-level-tag">Mobile-First Layouts</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">DOM Manipulation</span>
+                <span class="skill-level-tag">High Performance Events</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 2. Backend Development -->
+          <div class="skill-category-card tilt-card" data-reveal="fade-up" data-delay="150">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Backend Development</h3>
+                <span class="category-badge">Server &amp; API Logic</span>
+              </div>
+            </div>
+            <ul class="skills-item-list">
+              <li class="skill-item">
+                <span class="skill-name">Node.js</span>
+                <span class="skill-level-tag">Asynchronous Event Loop</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Express.js</span>
+                <span class="skill-level-tag">Middleware &amp; REST Routing</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">RESTful APIs</span>
+                <span class="skill-level-tag">Resource Modeling &amp; Statuses</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Authentication &amp; Authorization</span>
+                <span class="skill-level-tag">JWT, Bcrypt, Session State</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Server-side Development</span>
+                <span class="skill-level-tag">Modular Architecture</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 3. Database -->
+          <div class="skill-category-card tilt-card" data-reveal="fade-up" data-delay="200">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Database Systems</h3>
+                <span class="category-badge">Storage &amp; Modeling</span>
+              </div>
+            </div>
+            <ul class="skills-item-list">
+              <li class="skill-item">
+                <span class="skill-name">MongoDB</span>
+                <span class="skill-level-tag">Mongoose, NoSQL, Atlas</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">SQL</span>
+                <span class="skill-level-tag">Relational Queries &amp; Joins</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Database Design</span>
+                <span class="skill-level-tag">Normalization &amp; Indexing</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">CRUD Operations</span>
+                <span class="skill-level-tag">Optimized Data Access</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 4. Programming & Computer Science -->
+          <div class="skill-category-card tilt-card" data-reveal="fade-up" data-delay="250">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6z"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Programming &amp; CS</h3>
+                <span class="category-badge">Core Foundations</span>
+              </div>
+            </div>
+            <ul class="skills-item-list">
+              <li class="skill-item">
+                <span class="skill-name">C++</span>
+                <span class="skill-level-tag">Algorithms &amp; Memory</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Python</span>
+                <span class="skill-level-tag">Scripting &amp; Data Logic</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">OOP Principles</span>
+                <span class="skill-level-tag">Encapsulation &amp; Patterns</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Data Structures &amp; Algorithms</span>
+                <span class="skill-level-tag">Efficiency &amp; Complexity</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Problem Solving</span>
+                <span class="skill-level-tag">Analytical Solutions</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 5. Tools & Workflow -->
+          <div class="skill-category-card tilt-card" data-reveal="fade-up" data-delay="300">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Tools &amp; Workflow</h3>
+                <span class="category-badge">Productivity Ecosystem</span>
+              </div>
+            </div>
+            <ul class="skills-item-list">
+              <li class="skill-item">
+                <span class="skill-name">Git</span>
+                <span class="skill-level-tag">Version Control &amp; Branches</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">GitHub</span>
+                <span class="skill-level-tag">Collaboration &amp; PRs</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-level-tag">IDE &amp; Debugging Tools</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Postman</span>
+                <span class="skill-level-tag">API Testing &amp; Contracts</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">npm</span>
+                <span class="skill-level-tag">Package Management</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 6. Additional Interests -->
+          <div class="skill-category-card tilt-card" data-reveal="fade-up" data-delay="350">
+            <div class="category-header">
+              <div class="category-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              </div>
+              <div>
+                <h3 class="category-title">Additional Interests</h3>
+                <span class="category-badge">Modern Explorations</span>
+              </div>
+            </div>
+            <ul class="skills-item-list">
+              <li class="skill-item">
+                <span class="skill-name">Generative AI</span>
+                <span class="skill-level-tag">LLM Integration &amp; Prompts</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">AI Development Tools</span>
+                <span class="skill-level-tag">Copilots, Agents &amp; Workflows</span>
+              </li>
+              <li class="skill-item">
+                <span class="skill-name">Software Architecture</span>
+                <span class="skill-level-tag">Modular &amp; Scalable Systems</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 6: PROJECTS ==================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">05. Production Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world applications crafted with a focus on performance, architecture, and user experience.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Replya -->
+          <article class="project-card tilt-card" data-reveal="fade-up" data-delay="100">
+            <div class="project-image-box">
+              <img 
+                src="assets/images/project-replya.svg" 
+                alt="Replya AI Platform Preview" 
+                class="project-thumbnail" 
+                loading="lazy" 
+                width="800" 
+                height="500"
+              />
+              <div class="project-overlay">
+                <span class="overlay-badge">AI Platform</span>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-header">
+                <span class="project-label">Flagship Application</span>
+                <h3 class="project-title">Replya</h3>
+              </div>
+              <p class="project-description">
+                An AI-powered communication platform designed to improve business interactions. Features intelligent automated response generation, Supabase realtime synchronization, and high-efficiency messaging workflows.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">AI APIs</span>
+              </div>
+
+              <div class="project-links">
+                <!-- Editable URLs: Clearly marked placeholder links -->
+                <a href="#projects" class="project-btn btn-demo" title="Live demo link placeholder" onclick="alert('Demo placeholder: Replace with your actual deployed URL for Replya.')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+                <a href="#projects" class="project-btn btn-github" title="GitHub repository placeholder" onclick="alert('GitHub placeholder: Replace with your actual repository link for Replya.')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Portfolio Website -->
+          <article class="project-card tilt-card" data-reveal="fade-up" data-delay="200">
+            <div class="project-image-box">
+              <img 
+                src="assets/images/project-portfolio.svg" 
+                alt="Personal Portfolio Website Preview" 
+                class="project-thumbnail" 
+                loading="lazy" 
+                width="800" 
+                height="500"
+              />
+              <div class="project-overlay">
+                <span class="overlay-badge">Vanilla Frontend</span>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-header">
+                <span class="project-label">Personal Showcase</span>
+                <h3 class="project-title">Portfolio Website</h3>
+              </div>
+              <p class="project-description">
+                A responsive personal portfolio showcasing my development skills and projects. Built completely with pure HTML5, CSS3, and Vanilla JavaScript with dual theme design, custom particle systems, and zero external framework bloat.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Canvas API</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#home" class="project-btn btn-demo">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                  <span>Current Site</span>
+                </a>
+                <a href="#projects" class="project-btn btn-github" title="GitHub repository placeholder" onclick="alert('GitHub placeholder: Replace with your actual repository link for this portfolio.')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Full-Stack Web Application -->
+          <article class="project-card tilt-card" data-reveal="fade-up" data-delay="300">
+            <div class="project-image-box">
+              <img 
+                src="assets/images/project-fullstack.svg" 
+                alt="Full-Stack MEAN Application Preview" 
+                class="project-thumbnail" 
+                loading="lazy" 
+                width="800" 
+                height="500"
+              />
+              <div class="project-overlay">
+                <span class="overlay-badge">MEAN Stack</span>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div class="project-header">
+                <span class="project-label">Full-Stack Enterprise</span>
+                <h3 class="project-title">Full-Stack Web Application</h3>
+              </div>
+              <p class="project-description">
+                An editable placeholder for a comprehensive full-stack application built upon MongoDB, Express.js, Angular, and Node.js. Demonstrates JWT authentication, protected routes, and complex database aggregations.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">Node.js</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#projects" class="project-btn btn-demo" title="Live demo link placeholder" onclick="alert('Demo placeholder: Replace with your actual deployed URL for this full-stack project.')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  <span>Live Demo</span>
+                </a>
+                <a href="#projects" class="project-btn btn-github" title="GitHub repository placeholder" onclick="alert('GitHub placeholder: Replace with your actual repository link for this full-stack project.')">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  <span>Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- View All Projects Button -->
+        <div class="projects-cta" data-reveal="fade-up">
+          <button class="btn btn-secondary magnetic-btn" id="view-all-projects-btn">
+            <span>View All Projects</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+        </div>
+
+        <!-- Additional Projects Modal / Expandable Tray -->
+        <div class="projects-modal" id="projects-modal" aria-hidden="true">
+          <div class="modal-dialog tilt-card">
+            <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+            <h3 class="modal-title">More Projects in Progress</h3>
+            <p class="modal-intro">Currently developing additional enterprise and open-source applications:</p>
+            <div class="modal-projects-list">
+              <div class="modal-item">
+                <h4>E-Commerce REST API &amp; Storefront</h4>
+                <p>Node.js, Express, MongoDB, Stripe integration, and Angular dynamic catalog.</p>
+              </div>
+              <div class="modal-item">
+                <h4>Task Management Realtime Board</h4>
+                <p>Socket.io, Node.js, Express, and responsive Kanban client interface.</p>
+              </div>
+              <div class="modal-item">
+                <h4>Interactive Code Snippet Manager</h4>
+                <p>Vanilla JS &amp; LocalStorage client with syntax highlighting and tags.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 7: TESTIMONIALS ==================== -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">06. Peer &amp; Mentor Feedback</span>
+          <h2 class="section-title">What People Say</h2>
+          <p class="section-subtitle">Editable placeholder recommendations from instructors, colleagues, and team collaborators.</p>
+        </div>
+
+        <div class="testimonials-slider-container" id="testimonials-slider-container" data-reveal="fade-up">
+          <div class="slider-track-wrapper">
+            <div class="slider-track" id="slider-track">
+              <!-- Testimonial 1 -->
+              <div class="testimonial-slide active">
+                <div class="testimonial-card tilt-card">
+                  <div class="quote-icon" aria-hidden="true">“</div>
+                  <p class="testimonial-text">
+                    "Ahmed demonstrates exceptional dedication to writing clean, maintainable code. His grasp of the MEAN Stack architecture and structured problem-solving in the NTI program was evident in every project sprint."
+                  </p>
+                  <div class="author-meta">
+                    <div class="author-avatar-initials">MS</div>
+                    <div class="author-info">
+                      <h4 class="author-name">[Senior Instructor Name]</h4>
+                      <p class="author-role">MEAN Stack Lead Instructor, [National Telecommunication Institute]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="testimonial-slide">
+                <div class="testimonial-card tilt-card">
+                  <div class="quote-icon" aria-hidden="true">“</div>
+                  <p class="testimonial-text">
+                    "Collaborating with Ahmed on academic computer science projects has always been a pleasure. His ability to break down complex algorithmic problems and structure clean frontend interfaces sets a great standard."
+                  </p>
+                  <div class="author-meta">
+                    <div class="author-avatar-initials">KH</div>
+                    <div class="author-info">
+                      <h4 class="author-name">[Colleague / Team Partner Name]</h4>
+                      <p class="author-role">Computer Science Peer &amp; Software Collaborator</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="testimonial-slide">
+                <div class="testimonial-card tilt-card">
+                  <div class="quote-icon" aria-hidden="true">“</div>
+                  <p class="testimonial-text">
+                    "Ahmed brings both creative design intuition and rigorous backend thinking to web development. He is proactive, rapid at learning modern AI workflows, and dedicated to delivering polished end results."
+                  </p>
+                  <div class="author-meta">
+                    <div class="author-avatar-initials">OA</div>
+                    <div class="author-info">
+                      <h4 class="author-name">[Project Supervisor / Client Name]</h4>
+                      <p class="author-role">Technical Mentor, [Organization / Tech Lab]</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls: Prev / Next Buttons & Dots -->
+          <div class="slider-controls">
+            <button class="slider-btn prev-btn" id="slider-prev" aria-label="Previous testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="slider-dots" id="slider-dots" role="tablist" aria-label="Testimonial navigation dots">
+              <button class="dot-btn active" data-index="0" role="tab" aria-selected="true" aria-label="Testimonial 1"></button>
+              <button class="dot-btn" data-index="1" role="tab" aria-selected="false" aria-label="Testimonial 2"></button>
+              <button class="dot-btn" data-index="2" role="tab" aria-selected="false" aria-label="Testimonial 3"></button>
+            </div>
+            <button class="slider-btn next-btn" id="slider-next" aria-label="Next testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+
+          <p class="slider-note"><em>Note: Testimonials above are clearly designated editable placeholders for client or mentor reviews.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 8: SERVICES ==================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">07. Core Solutions</span>
+          <h2 class="section-title">What I Can Do For You</h2>
+          <p class="section-subtitle">End-to-end engineering services for modern websites and scalable software systems.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Frontend Development -->
+          <div class="service-card tilt-card" data-reveal="fade-up" data-delay="100">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="service-title">Frontend Development</h3>
+            <p class="service-summary">Delivering intuitive, visually stunning user interfaces with modern engineering principles.</p>
+            <ul class="service-list">
+              <li>Responsive websites across all viewports</li>
+              <li>Modern user interfaces &amp; design systems</li>
+              <li>Interactive web experiences &amp; animations</li>
+            </ul>
+          </div>
+
+          <!-- 2. Backend Development -->
+          <div class="service-card tilt-card" data-reveal="fade-up" data-delay="150">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <h3 class="service-title">Backend Development</h3>
+            <p class="service-summary">Robust server architectures engineered for reliability, security, and low latency.</p>
+            <ul class="service-list">
+              <li>Server-side applications in Node.js &amp; Express</li>
+              <li>RESTful API development &amp; integration</li>
+              <li>Authentication systems (JWT, OAuth, hashing)</li>
+            </ul>
+          </div>
+
+          <!-- 3. Full-Stack Development -->
+          <div class="service-card tilt-card" data-reveal="fade-up" data-delay="200">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <h3 class="service-title">Full-Stack Development</h3>
+            <p class="service-summary">Complete product development connecting client applications with unified backends.</p>
+            <ul class="service-list">
+              <li>Complete web applications from concept to deploy</li>
+              <li>MEAN Stack development (Mongo, Express, Angular, Node)</li>
+              <li>Database integration &amp; state management</li>
+            </ul>
+          </div>
+
+          <!-- 4. Website Optimization -->
+          <div class="service-card tilt-card" data-reveal="fade-up" data-delay="250">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="service-title">Website Optimization</h3>
+            <p class="service-summary">Fine-tuning web speed, core web vitals, accessibility, and code maintainability.</p>
+            <ul class="service-list">
+              <li>Performance improvements &amp; asset minification</li>
+              <li>Responsive optimization across device sizes</li>
+              <li>Clean, modular, and maintainable code architecture</li>
+            </ul>
+          </div>
+
+          <!-- 5. Database Development -->
+          <div class="service-card tilt-card" data-reveal="fade-up" data-delay="300">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <h3 class="service-title">Database Development</h3>
+            <p class="service-summary">Organizing, structuring, and optimizing data layers for long-term scalability.</p>
+            <ul class="service-list">
+              <li>MongoDB integration with Mongoose schemas</li>
+              <li>Database design &amp; relational normalization</li>
+              <li>Efficient CRUD data management &amp; indexing</li>
+            </ul>
+          </div>
+
+          <!-- 6. AI Integration -->
+          <div class="service-card tilt-card" data-reveal="fade-up" data-delay="350">
+            <div class="service-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h3 class="service-title">AI Integration</h3>
+            <p class="service-summary">Enhancing modern web platforms with intelligent generative and agentic workflows.</p>
+            <ul class="service-list">
+              <li>AI-powered features &amp; dynamic assistants</li>
+              <li>API integration (LLMs, real-time embeddings)</li>
+              <li>Intelligent application user experiences</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 9: GET IN TOUCH / CONTACT ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header" data-reveal="fade-up">
+          <span class="section-tag">08. Collaboration</span>
+          <h2 class="section-title">Let's Build Something Amazing Together</h2>
+          <p class="section-subtitle">Interested in discussing an opportunity, full-stack project, or collaboration? Reach out today.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Details, Socials, Download CV -->
+          <div class="contact-info-col" data-reveal="fade-right">
+            <div class="contact-card tilt-card">
+              <h3 class="contact-card-title">Get In Touch</h3>
+              <p class="contact-card-desc">
+                I am actively seeking software engineering internships, junior full-stack developer positions, and MEAN stack project opportunities. Feel free to connect!
+              </p>
+
+              <div class="contact-items">
+                <!-- Location -->
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div>
+                    <span class="item-label">Location</span>
+                    <strong class="item-value">Egypt (Open to Remote &amp; On-Site)</strong>
+                  </div>
+                </div>
+
+                <!-- Email Placeholder -->
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div>
+                    <span class="item-label">Email Address</span>
+                    <!-- Editable Placeholder -->
+                    <a href="mailto:ahmed.sabry.fullstack@gmail.com" class="item-link">ahmed.sabry.fullstack@gmail.com</a>
+                  </div>
+                </div>
+
+                <!-- Phone Placeholder -->
+                <div class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div>
+                    <span class="item-label">Phone Number</span>
+                    <!-- Editable Placeholder -->
+                    <a href="tel:+201036896312" class="item-link">+201036896312 [Egypt]</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Media Profiles -->
+              <div class="social-links-block">
+                <span class="social-label">Connect on Networks:</span>
+                <div class="social-pills">
+                  <!-- Editable Placeholder Links -->
+                  <a href="https://www.linkedin.com/in/ahmed-elesnawy-" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn Profile">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    <span>LinkedIn</span>
+                  </a>
+                  <a href="https://github.com/ahmed-elesnawy-15" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="GitHub Profile">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="https://x.com/AhElsnawy" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Twitter / X Profile">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+                    <span>Twitter/X</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Prominent Download CV Button in Contact Section -->
+              <div class="contact-cv-wrapper">
+                <a href="assets/cv/Ahmed_Sabry_CV.docx" download="Ahmed_Sabry_Hamed_Elesnawy_CV" class="btn btn-primary magnetic-btn" id="contact-download-cv">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                  </svg>
+                  <span>Download Curriculum Vitae (DOCX)</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-col" data-reveal="fade-left">
+            <div class="form-container-card tilt-card">
+              <h3 class="form-card-title">Send a Direct Message</h3>
+              <p class="form-card-subtitle">Fill in the fields below. Client-side validation is active.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <!-- Full Name -->
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="text" 
+                      id="contact-name" 
+                      name="name" 
+                      class="form-input" 
+                      
+                      required 
+                      autocomplete="name"
+                    />
+                  </div>
+                  <span class="field-error" id="name-error" aria-live="polite"></span>
+                </div>
+
+                <!-- Email Address -->
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="email" 
+                      id="contact-email" 
+                      name="email" 
+                      class="form-input" 
+                       
+                      required 
+                      autocomplete="email"
+                    />
+                  </div>
+                  <span class="field-error" id="email-error" aria-live="polite"></span>
+                </div>
+
+                <!-- Subject -->
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">Subject <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="text" 
+                      id="contact-subject" 
+                      name="subject" 
+                      class="form-input" 
+                       
+                      required
+                    />
+                  </div>
+                  <span class="field-error" id="subject-error" aria-live="polite"></span>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Message <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <textarea 
+                      id="contact-message" 
+                      name="message" 
+                      rows="5" 
+                      class="form-input form-textarea" 
+                      placeholder="Tell me about your project, timeline, or opportunity..." 
+                      required
+                    ></textarea>
+                  </div>
+                  <span class="field-error" id="message-error" aria-live="polite"></span>
+                </div>
+
+                <!-- Form Feedback Notification Area -->
+                <div class="form-feedback" id="form-feedback" role="alert" aria-live="assertive"></div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-submit magnetic-btn" id="submit-btn">
+                  <span class="btn-spinner" aria-hidden="true"></span>
+                  <span class="btn-text">Send Message</span>
+                  <svg class="send-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-symbol">&lt;</span>
+            <span class="logo-name">Ahmed</span>
+            <span class="logo-accent">.Sabry</span>
+            <span class="logo-symbol">/&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            Ahmed Sabry Hamed Elesnawy — Full-Stack Web Developer &amp; MEAN Stack Specialist. Building clean, scalable digital experiences.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Quick Links">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-socials">
+          <h4 class="footer-heading">Profiles</h4>
+          <div class="footer-icon-links">
+            <a href="https://www.linkedin.com/in/ahmed-elesnawy-" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://github.com/ahmed-elesnawy-15" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="mailto:ahmed.sabry.fullstack@gmail.com" aria-label="Email Ahmed">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year">2026</span> Ahmed Sabry Hamed Elesnawy. All rights reserved.
+        </p>
+        <p class="attribution">
+          Designed &amp; Developed by Ahmed Sabry
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Vanilla JavaScript -->
+  <script src="js/script.js" defer></script>
+
+  <!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F0E2" />
+      <stop offset="60%" stop-color="#E2DCCE" />
+      <stop offset="100%" stop-color="#A6C8E2" />
+    </linearGradient>
+    <linearGradient id="pCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061E29" />
+      <stop offset="100%" stop-color="#1D546D" />
+    </linearGradient>
+    <filter id="pShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#061E29" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="20" fill="url(#pBg)" />
+
+  <g transform="translate(60, 45)" filter="url(#pShadow)">
+    <!-- Device Frame -->
+    <rect width="680" height="410" rx="14" fill="#FFFFFF" stroke="#619DC6" stroke-width="2" />
+    <!-- Browser Top Bar -->
+    <rect width="680" height="42" rx="14" fill="#F4F0E2" />
+    <circle cx="25" cy="21" r="5.5" fill="#F4BAA3" />
+    <circle cx="43" cy="21" r="5.5" fill="#619DC6" />
+    <circle cx="61" cy="21" r="5.5" fill="#5F9598" />
+    
+    <rect x="200" y="9" width="280" height="24" rx="12" fill="#E2DCCE" />
+    <text x="340" y="25" font-family="system-ui, sans-serif" font-size="11" fill="#1D546D" text-anchor="middle">ahmed-sabry.dev (Vanilla Portfolio)</text>
+
+    <!-- Nav Bar in preview -->
+    <text x="35" y="75" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#061E29">&lt;Ahmed /&gt;</text>
+    <text x="380" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#1D546D">About   Skills   Projects   Experience   Contact</text>
+    <rect x="585" y="60" width="70" height="24" rx="12" fill="#619DC6" />
+    <text x="620" y="76" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">Hire Me</text>
+
+    <!-- Hero Content in preview -->
+    <rect x="35" y="105" width="160" height="22" rx="11" fill="#F4BAA3" opacity="0.4" />
+    <text x="45" y="120" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#061E29">● Available for Opportunities</text>
+
+    <text x="35" y="165" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#061E29">Ahmed Sabry</text>
+    <text x="35" y="195" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#619DC6">Full-Stack Web Developer</text>
+    
+    <text x="35" y="225" font-family="system-ui, sans-serif" font-size="11" fill="#40505A">Building scalable digital experiences through clean code,</text>
+    <text x="35" y="242" font-family="system-ui, sans-serif" font-size="11" fill="#40505A">creative thinking, and modern web technologies.</text>
+
+    <rect x="35" y="265" width="110" height="34" rx="8" fill="#619DC6" />
+    <text x="90" y="286" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">View Projects</text>
+
+    <rect x="155" y="265" width="110" height="34" rx="8" fill="none" stroke="#1D546D" stroke-width="1.5" />
+    <text x="210" y="286" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#1D546D" text-anchor="middle">Contact Me</text>
+
+    <!-- Right Side Hero Illustration Preview -->
+    <rect x="420" y="115" width="225" height="260" rx="18" fill="url(#pCard)" />
+    <circle cx="532" cy="205" r="50" fill="#F4BAA3" />
+    <circle cx="532" cy="180" r="28" fill="#061E29" />
+    <path d="M 495 240 C 495 210, 570 210, 570 240 Z" fill="#619DC6" />
+    
+    <rect x="440" y="295" width="185" height="60" rx="10" fill="#061E29" opacity="0.9" />
+    <text x="455" y="320" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#F4F0E2">HTML5 • CSS3 • JS</text>
+    <text x="455" y="340" font-family="system-ui, sans-serif" font-size="10" fill="#A6C8E2">Pure Vanilla Architecture</text>
+  </g>
+</svg>
