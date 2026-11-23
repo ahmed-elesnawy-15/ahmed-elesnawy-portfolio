@@ -41,6 +41,7 @@ ahmed-elesnawy-portfolio/
 │
 ├── js/
 │   └── script.js                # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
+│   └── contact.js                # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
 │
 └── assets/
     ├── images/
@@ -132,59 +133,12 @@ ahmed-elesnawy-portfolio/
    - Prominent **Download CV** button.
    - Footer with dynamic auto-updating copyright year and *"Designed & Developed by Ahmed Sabry"*.
 
----
 
-## ✏️ How to Customize Your Placeholders
 
-1. **Profile Photo:**
-   - Place your real headshot inside `assets/images/` (e.g. `assets/images/ahmed-sabry.jpg`).
-   - In `index.html`, find the `<img id="profile-img">` and `.about-img` tags and update the `src`:
-     ```html
-     <img src="assets/images/ahmed-sabry.jpg" alt="Ahmed Sabry Hamed Elesnawy" ... />
-     ```
 
-2. **Resume (CV):**
-   - Save your actual PDF resume as `assets/cv/Ahmed_Sabry_Hamed_Elesnawy_CV.pdf`.
-   - Update the `href` in the two Download CV buttons in `index.html`.
 
-3. **University / Department Name:**
-   - Search for `[Faculty of Computers` in `index.html` under Section 3 (Education) and replace it with your actual university name (e.g., *Faculty of Computers and Artificial Intelligence, Cairo University*).
+   
 
-4. **Contact Information & Social Links:**
-   - In Section 9 (`#contact`) and the footer, replace:
-     - `ahmed.sabry.elesnawy@example.com` with your real email.
-     - `+20 1XX XXX XXXX` with your phone number.
-     - `https://linkedin.com/in/` with your direct LinkedIn profile handle.
-     - `https://github.com/` with your direct GitHub profile username.
 
-5. **Connecting the Contact Form to Live Email Delivery:**
-   - To send actual emails without configuring a database backend, you can connect the form to [Formspree](https://formspree.io/) or [EmailJS](https://www.emailjs.com/).
-   - Example with Formspree:
-     ```html
-     <form action="https://formspree.io/f/your_form_id" method="POST">
-     ```
 
----
 
-## 💻 How to Preview & Run Locally
-
-Because this project uses pure HTML5, CSS3, and JavaScript, no build step or node package installation is required:
-
-1. Simply double-click `index.html` to open it directly in any modern browser (Chrome, Edge, Firefox, Safari).
-2. Or use VS Code's **Live Server** extension, or run a simple local Python server:
-   ```bash
-   # From the project directory:
-   python -m http.server 8000
-   ```
-   Then open `http://localhost:8000` in your browser.
-
----
-
-## 🌐 Free Hosting & Deployment Options
-
-- **GitHub Pages:**
-  1. Initialize a git repository and push to GitHub.
-  2. In your GitHub repository, navigate to **Settings** > **Pages**.
-  3. Under *Branch*, select `main` and `/root`. Click **Save**.
-- **Netlify / Vercel:**
-  - Drag and drop this folder directly into the Netlify/Vercel dashboard for instant SSL-secured deployment.
