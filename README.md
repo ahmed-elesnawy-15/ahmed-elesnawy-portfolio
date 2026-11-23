@@ -41,14 +41,18 @@ ahmed-elesnawy-portfolio/
 │
 ├── js/
 │   └── script.js                # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
+<<<<<<< HEAD
 │   └── contact.js                # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
+=======
+│   └── contact.js               # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
+>>>>>>> 89e3555 (Rename portfolio file)
 │
 └── assets/
     ├── images/
-    │   ├── profile-placeholder.svg    # Vector avatar & frame artwork
-    │   ├── project-replya.svg         # Replya AI Platform preview
-    │   ├── project-portfolio.svg      # Portfolio project preview
-    │   └── project-fullstack.svg      # MEAN Stack enterprise preview
+    │   ├── profile-placeholder.jpeg    # Vector avatar & frame artwork
+    │   ├── project-replya.svg          # Replya AI Platform preview
+    │   ├── project-portfolio.svg       # Portfolio project preview
+    │   └── project-fullstack.svg       # MEAN Stack enterprise preview
     ├── icons/
     └── cv/
         └── Ahmed_Sabry_CV_Placeholder.pdf # PDF resume placeholder
@@ -132,13 +136,4 @@ ahmed-elesnawy-portfolio/
    - Client-side validated contact form with real-time feedback, field error markers, and loading spinner.
    - Prominent **Download CV** button.
    - Footer with dynamic auto-updating copyright year and *"Designed & Developed by Ahmed Sabry"*.
-
-
-
-
-
-   
-
-
-
 
