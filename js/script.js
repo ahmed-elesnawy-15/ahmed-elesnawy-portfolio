@@ -725,7 +725,7 @@
         DOM.submitBtn.disabled = false;
 
         DOM.formFeedback.className = 'form-feedback success';
-        DOM.formFeedback.textContent = `Thank you, ${name.value.trim()}! Your message has been prepared. (Client-side validation passed successfully. You can connect this form directly to an EmailJS or Node.js/Express backend.)`;
+        //DOM.formFeedback.textContent = `Thank you, ${name.value.trim()}! Your message has been prepared. (Client-side validation passed successfully.`;
 
         DOM.contactForm.reset();
 
