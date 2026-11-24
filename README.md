@@ -40,19 +40,15 @@ ahmed-elesnawy-portfolio/
 │   └── style.css                # CSS variables, glassmorphism, responsive clamp typography
 │
 ├── js/
-│   └── script.js                # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
-<<<<<<< HEAD
+│   └── script.js                 # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
 │   └── contact.js                # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
-=======
-│   └── contact.js               # Vanilla ES6+: particles, 3D tilt, typing, slider, theme, form
->>>>>>> 89e3555 (Rename portfolio file)
 │
 └── assets/
     ├── images/
-    │   ├── profile-placeholder.jpeg    # Vector avatar & frame artwork
-    │   ├── project-replya.svg          # Replya AI Platform preview
-    │   ├── project-portfolio.svg       # Portfolio project preview
-    │   └── project-fullstack.svg       # MEAN Stack enterprise preview
+    │   ├── profile-placeholder.jpeg              #
+    │   ├── project-aura-shop.jpeg                # 
+    │   ├── project-cinelux.jpeg                  # 
+    │   └── project-grand-palace-hotel.jpeg       # 
     ├── icons/
     └── cv/
         └── Ahmed_Sabry_CV_Placeholder.pdf # PDF resume placeholder
